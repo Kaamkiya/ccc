@@ -1,0 +1,18 @@
+ccc
+===
+
+Solutions to the problems from the Canadian Computing Competition from over the
+years.
+
+You can find information about the CCC at
+https://cemc.uwaterloo.ca/contests/ccc.
+
+Languages
+---------
+I will do these in Python, C, probably Java, and maybe Lua too. Note though,
+the CCC does not accept Lua solutions.
+
+License
+-------
+This project is licensed under the Unlicense. See https://unlicense.org/ for
+more information.
