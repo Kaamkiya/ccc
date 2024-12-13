@@ -1,10 +1,8 @@
-hats = [int(i) for i in open('input.txt', 'r').read().splitlines()]
+N = int(input())
+hats = [int(input()) for _ in range(N)]
 
-count = hats[0]
-hats = hats[1:]
-
-a = hats[:count//2]
-b = hats[count//2:]
+a = hats[:N//2]
+b = hats[N//2:]
 
 total = 0
 
