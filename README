@@ -13,15 +13,15 @@ https://cemc.uwaterloo.ca/contests/ccc.
 How this repo is structured
 ---------------------------
 
-The first subdirectory is either the senior (sr) or junior (jr) competition.
-The second subdirectory is the year (eg, 2024).
-The third is the language (eg, py).
-And finally, the files are the letter s and the problem number (eg, s2).
+	$YEAR/$LANG/$LEVEL$NUMBER.$LANG
+
+For example, for 2024's Python solution to senior question 1:
+
+	2024/py/s1.py
 
 Languages
 ---------
-I will do these in Python, C, probably Java, and maybe Lua too. Note though,
-the CCC does not accept Lua solutions.
+I will do these in Python, C, and probably Java.
 
 License
 -------
