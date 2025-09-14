@@ -1,14 +1,9 @@
 D = int(input())
-E = int(input())
-R = D
 
-for _ in range(E):
-    operation = input()
-    Q = int(input())
-
-    if operation == "+":
-        R += Q
+for _ in range(int(input())):
+    if input() == "+":
+        D += int(input())
     else:
-        R -= Q
+        D -= int(input())
 
-print(R)
+print(D)
