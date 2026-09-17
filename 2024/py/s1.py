@@ -7,6 +7,6 @@ b = hats[N//2:]
 total = 0
 
 for i, v in enumerate(a):
-    if v == b[i]: total += 1
+    if v == b[i]: total += 2
 
 print(total)
